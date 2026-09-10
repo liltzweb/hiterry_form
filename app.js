@@ -3,7 +3,7 @@
   if (!cfg) throw new Error("FORM_CONFIG is missing");
 
   const $ = (id) => document.getElementById(id);
-  const rupiah = (value) => "Rp" + Number(value).toLocaleString("id-ID");
+  const rupiah = (value) => "Rp " + Number(value).toLocaleString("id-ID");
   const slugify = (value) => value.toLowerCase().trim().replace(/[^a-z0-9-]+/g, "-").replace(/^-+|-+$/g, "");
   const validHex = (value) => /^#[0-9A-F]{6}$/i.test(value);
 
