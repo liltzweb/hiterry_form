@@ -7,7 +7,7 @@ window.FORM_CONFIG = {
   "motif": "\ud83c\udf82",
   "media": "6 foto (1 foto hero portrait 4:5/3:4, 4 foto memory landscape 4:3/1:1, 1 foto ending portrait 4:5/1:1) dan 1 file musik .mp3",
   "theme": "neutral",
-  "price": 7000,
+  "price": 15000,
   "rushPrice": 4000,
   "recolorPrice": 2000,
   "decorationPrice": 3000,

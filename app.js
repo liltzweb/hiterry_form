@@ -172,7 +172,7 @@
     const body = document.createElement("div");
     body.className = "exhibit-body row2";
     section.fields.forEach((field) => {
-      const optional = field.key.includes("reply_username");
+      const optional = true;
       const label = document.createElement("label");
       label.className = "field" + (field.long ? " long" : "");
       const labelText = document.createElement("span");
@@ -266,7 +266,7 @@
       lines.push(String(index + 2).padStart(2, "0") + " · " + section.title);
       section.fields.forEach((field) => {
         const value = $("field_" + field.key).value.trim();
-        lines.push(field.label + " → " + (value || "(pakai default katalog)"));
+        lines.push(field.label + " → " + (value || "(pakai default katalog: " + field.placeholder.replace(/\n/g, " ") + ")"));
       });
       lines.push("");
     });
