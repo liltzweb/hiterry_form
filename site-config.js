@@ -10,7 +10,6 @@ window.FORM_CONFIG = {
   "price": 15000,
   "rushPrice": 4000,
   "recolorPrice": 2000,
-  "decorationPrice": 3000,
   "palette": [
     "#20211F",
     "#3F4A50",
